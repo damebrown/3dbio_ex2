@@ -76,22 +76,9 @@ include CMakeFiles/ex2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex2.dir/flags.make
 
-CMakeFiles/ex2.dir/alignRand.cc.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/alignRand.cc.o: ../alignRand.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex2.dir/alignRand.cc.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/alignRand.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/alignRand.cc
-
-CMakeFiles/ex2.dir/alignRand.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/alignRand.cc.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/alignRand.cc > CMakeFiles/ex2.dir/alignRand.cc.i
-
-CMakeFiles/ex2.dir/alignRand.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/alignRand.cc.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/alignRand.cc -o CMakeFiles/ex2.dir/alignRand.cc.s
-
 CMakeFiles/ex2.dir/Atom.cc.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Atom.cc.o: ../Atom.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex2.dir/Atom.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex2.dir/Atom.cc.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Atom.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/Atom.cc
 
 CMakeFiles/ex2.dir/Atom.cc.i: cmake_force
@@ -104,7 +91,7 @@ CMakeFiles/ex2.dir/Atom.cc.s: cmake_force
 
 CMakeFiles/ex2.dir/Match.cc.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Match.cc.o: ../Match.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex2.dir/Match.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex2.dir/Match.cc.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Match.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/Match.cc
 
 CMakeFiles/ex2.dir/Match.cc.i: cmake_force
@@ -117,7 +104,7 @@ CMakeFiles/ex2.dir/Match.cc.s: cmake_force
 
 CMakeFiles/ex2.dir/Matrix3.cc.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Matrix3.cc.o: ../Matrix3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex2.dir/Matrix3.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex2.dir/Matrix3.cc.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Matrix3.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/Matrix3.cc
 
 CMakeFiles/ex2.dir/Matrix3.cc.i: cmake_force
@@ -130,7 +117,7 @@ CMakeFiles/ex2.dir/Matrix3.cc.s: cmake_force
 
 CMakeFiles/ex2.dir/numerics.cc.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/numerics.cc.o: ../numerics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex2.dir/numerics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex2.dir/numerics.cc.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/numerics.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/numerics.cc
 
 CMakeFiles/ex2.dir/numerics.cc.i: cmake_force
@@ -143,7 +130,7 @@ CMakeFiles/ex2.dir/numerics.cc.s: cmake_force
 
 CMakeFiles/ex2.dir/PDB.cc.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/PDB.cc.o: ../PDB.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex2.dir/PDB.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex2.dir/PDB.cc.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/PDB.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/PDB.cc
 
 CMakeFiles/ex2.dir/PDB.cc.i: cmake_force
@@ -156,7 +143,7 @@ CMakeFiles/ex2.dir/PDB.cc.s: cmake_force
 
 CMakeFiles/ex2.dir/RigidTrans3.cc.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/RigidTrans3.cc.o: ../RigidTrans3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex2.dir/RigidTrans3.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex2.dir/RigidTrans3.cc.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/RigidTrans3.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/RigidTrans3.cc
 
 CMakeFiles/ex2.dir/RigidTrans3.cc.i: cmake_force
@@ -169,7 +156,7 @@ CMakeFiles/ex2.dir/RigidTrans3.cc.s: cmake_force
 
 CMakeFiles/ex2.dir/Rotation3.cc.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Rotation3.cc.o: ../Rotation3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex2.dir/Rotation3.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex2.dir/Rotation3.cc.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Rotation3.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/Rotation3.cc
 
 CMakeFiles/ex2.dir/Rotation3.cc.i: cmake_force
@@ -182,7 +169,7 @@ CMakeFiles/ex2.dir/Rotation3.cc.s: cmake_force
 
 CMakeFiles/ex2.dir/Triangle.cc.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Triangle.cc.o: ../Triangle.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ex2.dir/Triangle.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex2.dir/Triangle.cc.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Triangle.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/Triangle.cc
 
 CMakeFiles/ex2.dir/Triangle.cc.i: cmake_force
@@ -195,7 +182,7 @@ CMakeFiles/ex2.dir/Triangle.cc.s: cmake_force
 
 CMakeFiles/ex2.dir/Vector3.cc.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/Vector3.cc.o: ../Vector3.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ex2.dir/Vector3.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ex2.dir/Vector3.cc.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Vector3.cc.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/Vector3.cc
 
 CMakeFiles/ex2.dir/Vector3.cc.i: cmake_force
@@ -208,7 +195,7 @@ CMakeFiles/ex2.dir/Vector3.cc.s: cmake_force
 
 CMakeFiles/ex2.dir/structAlign.cpp.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/structAlign.cpp.o: ../structAlign.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ex2.dir/structAlign.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ex2.dir/structAlign.cpp.o"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/structAlign.cpp.o -c /cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/structAlign.cpp
 
 CMakeFiles/ex2.dir/structAlign.cpp.i: cmake_force
@@ -221,7 +208,6 @@ CMakeFiles/ex2.dir/structAlign.cpp.s: cmake_force
 
 # Object files for target ex2
 ex2_OBJECTS = \
-"CMakeFiles/ex2.dir/alignRand.cc.o" \
 "CMakeFiles/ex2.dir/Atom.cc.o" \
 "CMakeFiles/ex2.dir/Match.cc.o" \
 "CMakeFiles/ex2.dir/Matrix3.cc.o" \
@@ -236,7 +222,6 @@ ex2_OBJECTS = \
 # External object files for target ex2
 ex2_EXTERNAL_OBJECTS =
 
-ex2.exe: CMakeFiles/ex2.dir/alignRand.cc.o
 ex2.exe: CMakeFiles/ex2.dir/Atom.cc.o
 ex2.exe: CMakeFiles/ex2.dir/Match.cc.o
 ex2.exe: CMakeFiles/ex2.dir/Matrix3.cc.o
@@ -249,7 +234,7 @@ ex2.exe: CMakeFiles/ex2.dir/Vector3.cc.o
 ex2.exe: CMakeFiles/ex2.dir/structAlign.cpp.o
 ex2.exe: CMakeFiles/ex2.dir/build.make
 ex2.exe: CMakeFiles/ex2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ex2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ex2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

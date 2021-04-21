@@ -358,33 +358,6 @@ Vector3.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Vector3.cc.s
 .PHONY : Vector3.cc.s
 
-alignRand.o: alignRand.cc.o
-
-.PHONY : alignRand.o
-
-# target to build an object file
-alignRand.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/alignRand.cc.o
-.PHONY : alignRand.cc.o
-
-alignRand.i: alignRand.cc.i
-
-.PHONY : alignRand.i
-
-# target to preprocess a source file
-alignRand.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/alignRand.cc.i
-.PHONY : alignRand.cc.i
-
-alignRand.s: alignRand.cc.s
-
-.PHONY : alignRand.s
-
-# target to generate assembly for a file
-alignRand.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/alignRand.cc.s
-.PHONY : alignRand.cc.s
-
 numerics.o: numerics.cc.o
 
 .PHONY : numerics.o
@@ -472,9 +445,6 @@ help:
 	@echo "... Vector3.o"
 	@echo "... Vector3.i"
 	@echo "... Vector3.s"
-	@echo "... alignRand.o"
-	@echo "... alignRand.i"
-	@echo "... alignRand.s"
 	@echo "... numerics.o"
 	@echo "... numerics.i"
 	@echo "... numerics.s"

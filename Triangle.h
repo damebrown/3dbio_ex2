@@ -99,12 +99,10 @@ public:
   // the same weight (1)
   Vector3 baricenter() const;
   
-  //// Calculates a shift of Baricenter of triangle (add vector)
-  // (doesn't change the object itself)
+  //// Calculates a shift of Baricenter of triangle (add vector) (doesn't change the object itself)
   Triangle operator+(const Vector3& vec) const;
   
-  //// Returns a transformation to fit triangle tr onto 
-  // this triangle
+  //// Returns a transformation to fit triangle tr onto this triangle
   RigidTrans3 operator|(const Triangle& tr) const{	
     RigidTrans3 tr1(m_A,m_B,m_C);
     RigidTrans3 tr2(tr.m_A,tr.m_B,tr.m_C);

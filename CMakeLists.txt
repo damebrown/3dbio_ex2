@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(ex2
-        alignRand.cc
         AminoAcid.h
         Atom.cc
         Atom.h

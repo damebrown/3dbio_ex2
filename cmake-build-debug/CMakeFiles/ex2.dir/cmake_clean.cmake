@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex2.dir/Rotation3.cc.o"
   "CMakeFiles/ex2.dir/Triangle.cc.o"
   "CMakeFiles/ex2.dir/Vector3.cc.o"
-  "CMakeFiles/ex2.dir/alignRand.cc.o"
   "CMakeFiles/ex2.dir/numerics.cc.o"
   "CMakeFiles/ex2.dir/structAlign.cpp.o"
   "ex2.exe"

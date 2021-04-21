@@ -491,8 +491,7 @@ Molecule<ParticleT>& Molecule<ParticleT>::operator=(const Molecule<ParticleT>& m
 template<class ParticleT>
 std::ostream& operator<< (std::ostream& s, const Molecule<ParticleT>& m)
 {
-  for (typename std::vector<ParticleT>::const_iterator it = m.begin();
-       it != m.end() ; ++it) {
+  for (typename std::vector<ParticleT>::const_iterator it = m.begin(); it != m.end() ; ++it) {
     s << *it << std::endl;
   }
   return s;

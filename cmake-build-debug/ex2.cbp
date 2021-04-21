@@ -145,9 +145,6 @@
 		<Unit filename="/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/Vector3.h">
 			<Option target="ex2"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/alignRand.cc">
-			<Option target="ex2"/>
-		</Unit>
 		<Unit filename="/cygdrive/c/Users/user/Documents/d/d_b/3dBio/ex2/macros.h">
 			<Option target="ex2"/>
 		</Unit>

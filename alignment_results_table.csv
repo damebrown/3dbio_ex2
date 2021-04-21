@@ -1,0 +1,17 @@
+﻿Pair,structType,epsilon,AlignmentSize,RMSD
+1b7fA.pdb and 1m5oC.pdb,Protein,1,43,0.424671
+2bnh.pdb and 1dfjI.pdb,Protein,1,249,0.366879
+4pti.pdb and 6pti.pdb,Protein,1,55,0.319962
+1e6wA.pdb and 1yb1A.pdb,Protein,1,42,0.448598
+2uzxB.pdb and 4wjk.pdb,Protein,1,36,0.52399
+6vxxA.pdb and 6vsbA.pdb,Protein,1,327,0.423993
+2m8k.pdb and 1ymo.pdb,RNA,1,8,0.411415
+1u6b.pdb and 1y0q.pdb,RNA,1,45,0.476244
+1b7fA.pdb and 1m5oC.pdb,Protein,3,72,0.643493
+2bnh.pdb and 1dfjI.pdb,Protein,3,428,0.796802
+4pti.pdb and 6pti.pdb,Protein,3,56,0.274937
+1e6wA.pdb and 1yb1A.pdb,Protein,3,173,0.974002
+2uzxB.pdb and 4wjk.pdb,Protein,3,243,1.09739
+6vxxA.pdb and 6vsbA.pdb,Protein,3,623,0.781517
+2m8k.pdb and 1ymo.pdb,RNA,3,26,0.927671
+1u6b.pdb and 1y0q.pdb,RNA,3,121,0.853105

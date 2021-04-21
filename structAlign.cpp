@@ -13,6 +13,8 @@
 #include "GeomHash.h"
 #include "Triangle.h"
 #include <iostream>
+#include <fstream>
+using namespace std;
 
 void compute_trans(Match &match, GeomHash<Vector3, int> &gHash, float epsilon, Molecule<Atom> &molModel,
                    Molecule<Atom> &molTarget,
@@ -38,14 +40,9 @@ void compute_trans(Match &match, GeomHash<Vector3, int> &gHash, float epsilon, M
     }
 }
 
-bool is_protein(Molecule<Atom> mol){
-    for (int i = 0; i < mol.size(); i++){
-        if (mol[i].isCA()) {
-            //TODO check if in RNA molecule it will always be false
-            return true;
-        }
-    }
-    return false;
+
+bool is_rna(Molecule<Atom> mol) {
+    return mol[0].isRNABackbone();
 }
 
 int main(int argc, char *argv[]) {
@@ -63,32 +60,32 @@ int main(int argc, char *argv[]) {
 
     // read the two files into Molecule
     Molecule<Atom> molModel, molTarget;
+    Molecule<Atom> molModelAll, molTargetAll;
 
-    std::ifstream fileModel(argv[3]);
-    std::ifstream fileTarget(argv[2]);
+    std::ifstream fileModelAll(argv[3]);
+    std::ifstream fileTargetAll(argv[2]);
 
-    if (!fileTarget) {
+    if (!fileTargetAll) {
         std::cout << "File " << argv[3] << " does not exist." << std::endl;
         return 0;
     }
-    if (!fileModel) {
+    if (!fileModelAll) {
         std::cout << "File " << argv[2] << " does not exist." << std::endl;
         return 0;
     }
-    // TODO: check what to do if it's RNA molecules
 
-    molModel.readPDBfile(fileModel);
-    if (is_protein(molModel)){
+    molModelAll.readPDBfile(fileModelAll);
+    molTargetAll.readPDBfile(fileTargetAll);
+    std::ifstream fileModel(argv[3]);
+    std::ifstream fileTarget(argv[2]);
+    if (!is_rna(molModelAll)) {
         molModel.readPDBfile(fileModel, PDB::CAlphaSelector());
         molTarget.readPDBfile(fileTarget, PDB::CAlphaSelector());
-    }
-    else {
+    } else {
         molModel.readPDBfile(fileModel, PDB::PSelector());
         molTarget.readPDBfile(fileTarget, PDB::PSelector());
     }
 
-
-    // TODO check if we need to calc center of mass etc.
     // calculate center of mass
     Vector3 vectModelMass(0, 0, 0);
     for (unsigned int i = 0; i < molModel.size(); i++) {
@@ -121,7 +118,9 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < molTarget.size() - 2; i++) {
         Triangle target_tr = Triangle(molTarget[i].position(), molTarget[i + 1].position(),
                                       molTarget[i + 2].position());
+        cout << i << " / " <<  molTarget.size() << endl;
         for (int j = 0; j < molModel.size() - 2; j++) {
+
             Triangle model_tr = Triangle(molModel[j].position(), molModel[j + 1].position(),
                                          molModel[j + 2].position());
             RigidTrans3 rig_trans = target_tr | model_tr;
@@ -133,20 +132,25 @@ int main(int argc, char *argv[]) {
             //calculates transformation that is a little better than "rotation"
             match.calculateBestFit(molTarget, molModel);
             if (iMaxSize < match.size()) {
+
                 iMaxSize = match.size();
                 rtransBest = match.rigidTrans();
                 rmsd = match.rmsd();
             }
         }
     }
+    for (int i = 0; i < molModelAll.size(); i++) {
+        molModelAll[i].update(rtransBest * molModelAll[i].position());
+    }
 
+    ofstream transformed("transformed.pdb");
+    transformed << molModelAll;
+    transformed.close();
     std::cout << "Max Alignment Size: " << iMaxSize << std::endl;
     std::cout << "Best RMSD: " << rmsd << std::endl;
     std::cout << "Rigid Trans: " <<
               RigidTrans3(Vector3(0, 0, 0), vectTargetMass) *
               rtransBest *
               RigidTrans3(Vector3(0, 0, 0), (-vectModelMass)) << std::endl;
-    // TODO check that the transformation is printed in the right order
-
 }
 
